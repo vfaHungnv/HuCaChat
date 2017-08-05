@@ -4,7 +4,6 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 // Add middleware to handle post request for express
-app.set('port', (process.env.PORT || 5000));
 app.use('/static', express.static('static'));
 
 // Serve index.html for path '/', this is home path
@@ -14,8 +13,8 @@ app.get('/', (req, res) => {
 
 var trackingState = {}
 
-server.listen(5000, function(){
-    console.log('Dang lang nghe tren post 5000');
+server.listen(process.env.PORT || 8088, function(){
+    console.log('Dang lang nghe tren post 8088');
     io.on('connection', function(socket){
         console.log('Co nguoi ket noi');
         
