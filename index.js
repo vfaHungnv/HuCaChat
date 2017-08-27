@@ -25,7 +25,7 @@ server.listen(process.env.PORT || 8088, function(){
 
         socket.on("location", function(data){
 	        trackingState = Object.assign(trackingState, { 
-    	        [ data[0] ] : { lat: Number(data[1]), lng: Number(data[2])}
+    	        [ data[0] ] : { name: data[1], lat: Number(data[2]), lng: Number(data[3])}
             });
             io.sockets.emit('locationUpdated', trackingState);
         })
