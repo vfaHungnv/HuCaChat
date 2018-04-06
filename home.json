@@ -1,0 +1,87 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Captain America",
+			"username": "@captamerica",
+			"bio": "Back when he was still a scrawny, 90-pound runt, Steve Rogers was determined to go to war and serve his country.",
+			"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c2a550f6-e8b3-4f60-bc52-97ba61f39763"
+		},
+		{
+			"id": 2,
+			"name": "Iron Man",
+			"username": "@ironman",
+			"bio": "A \"cool exec with a heart of steel,\" Tony Stark is the invincible Iron Man, fighting for justice as a modern day knight in high-tech armor.",
+			"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c38bc648-c736-4a01-bdf9-e03f55e4ab0c"
+		},
+		{
+			"id": 3,
+			"name": "Black Widow",
+			"username": "@blackwidow",
+			"bio": "One of the world's greatest spies and master of disguise, she's the legendary scarlet-haired NATASHA ROMANOVA, the BLACK WIDOW!",
+			"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/9675b80a-41b7-47a6-bdaa-da61dfc7624a"
+		}
+	],
+	"tweets": [
+		{
+			"user": {
+				"id": 1,
+				"name": "Captain America",
+				"username": "@captamerica",
+				"bio": "Back when he was still a scrawny, 90-pound runt, Steve Rogers was determined to go to war and serve his country.",
+				"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c2a550f6-e8b3-4f60-bc52-97ba61f39763"
+			},
+			"image": {
+				"width": 625,
+				"height": 368,
+				"imageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/e594731a-0505-431c-a04f-dd73b00a2c6e"
+			},
+			"message": "When the mob and the press and the whole world tell you to move, your job is to plant yourself like a tree by the river of truth and tell the whole world: \"No, you move.\""
+		},
+		{
+			"user": {
+				"id": 2,
+				"name": "Iron Man",
+				"username": "@ironman",
+				"bio": "A \"cool exec with a heart of steel,\" Tony Stark is the invincible Iron Man, fighting for justice as a modern day knight in high-tech armor.",
+				"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c38bc648-c736-4a01-bdf9-e03f55e4ab0c"
+			},
+			"image": {
+				"width": 300,
+				"height": 376,
+				"imageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/040e5929-f0ab-42c3-9ece-e5178776d205"
+			},
+			"message": "Heroes are made by the paths they choose, not the powers they are graced with."
+		},
+		{
+			"user": {
+				"id": 2,
+				"name": "Iron Man",
+				"username": "@ironman",
+				"bio": "A \"cool exec with a heart of steel,\" Tony Stark is the invincible Iron Man, fighting for justice as a modern day knight in high-tech armor.",
+				"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c38bc648-c736-4a01-bdf9-e03f55e4ab0c"
+			},
+			"image": {
+				"width": 0,
+				"height": 0,
+				"imageUrl": ""
+			},
+			"message": "Piper: Am I going to be alright?\nMe: Baby, you're in a relationship with me. Nothing is ever going to be alright."
+		},
+		{
+			"user": {
+				"id": 2,
+				"name": "Iron Man",
+				"username": "@ironman",
+				"bio": "A \"cool exec with a heart of steel,\" Tony Stark is the invincible Iron Man, fighting for justice as a modern day knight in high-tech armor.",
+				"profileImageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/c38bc648-c736-4a01-bdf9-e03f55e4ab0c"
+			},
+			"image": {
+				"width": 990,
+				"height": 600,
+				"imageUrl": "https://letsbuildthatapp-videos.s3-us-west-2.amazonaws.com/ad451b2a-05a5-439c-990a-625f972815bd"
+			},
+			"message": "Keep Calm and Call Jarvis"
+		}
+	]
+}
